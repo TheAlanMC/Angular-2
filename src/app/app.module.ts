@@ -15,6 +15,7 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { AbmComponent } from './abm/abm.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,9 @@ import { HomeComponent } from './home/home.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
