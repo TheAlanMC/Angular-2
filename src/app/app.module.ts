@@ -15,7 +15,11 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { AbmComponent } from './abm/abm.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { HomeComponent } from './home/home.component';
+<<<<<<< HEAD
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+=======
+import { FormsModule } from '@angular/forms';
+>>>>>>> 09a75fd060b46b3d227254fc2ff1bb88818c41cd
 
 @NgModule({
   declarations: [
@@ -27,17 +31,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    BrowserModule,
+    BrowserModule,
+    FormsModule,
     LayoutModule,
-    MatToolbarModule,
     MatButtonModule,
-    MatSidenavModule,
     MatIconModule,
     MatListModule,
+<<<<<<< HEAD
     FormsModule, 
     ReactiveFormsModule
+=======
+    MatSidenavModule,
+    MatToolbarModule,
+>>>>>>> 09a75fd060b46b3d227254fc2ff1bb88818c41cd
   ],
   providers: [],
   bootstrap: [AppComponent]
