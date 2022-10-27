@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { AbmComponent } from './abm/abm.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     BarraLateralComponent,
     CatalogoComponent,
     AbmComponent,
-    ContactoComponent
+    ContactoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
